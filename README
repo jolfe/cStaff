@@ -1,0 +1,21 @@
+#<<---->> cStaff 2.4.2 <<---->>
+
+Finally, all those confused players know who to ask for help!  Simply type /staff to see:
+  - Names of online staff members
+  - Names of online donors
+  - Online player count
+
+Now with 6 different built-in color schemes to choose from! Check out the ColorScheme config node!
+
+##Configuration nodes:
+* **color-scheme: 1** --- the two-toned color scheme of the cStaff playerlist (1 = blue, 2 = green, 3 = gray, 4 = red, 5 = purple, 6 = gold)
+* **show-on-join: true/false** --- whether to automatically show the cStaff playerlist to joining players
+* **use-displaynames: true/false** --- whether the names of staff and donors in the cStaff playerlist should include prefixes, suffixes, and other modifications
+* **ops.show-as-staff: true/false** --- whether ops are included in the staff list
+* **ops.show-as-donors: true/false** --- whether ops are included in the donor list
+
+##Permissions nodes
+* **cstaff.*:** Master node
+* **cstaff.staff:** Players with this node show up as staff in the cStaff playerlist
+* **cstaff.donor:** Players with this node show up as donors in the cStaff playerlist
+* **cstaff.reload:** Permission to reload the cStaff configuration with '/cstaff reload'

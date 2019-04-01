@@ -1,0 +1,11 @@
+#The integer value (1-6) assigned to the color-scheme node determines the color scheme of the /cstaff message like so:
+#1 = DARK_AQUA/BLUE (default), 2 = DARK_GREEN/GREEN, 3 = BLACK/DARK_GRAY (boring), 4 = DARK_RED/RED, 5 = DARK_PURPLE/LIGHT_PURPLE, 6 = GOLD/YELLOW, 7 = DARK_RED/BLACK
+color-scheme: 1
+#Should joining players automatically be shown the staff/donor listing?
+show-on-join: true
+#Should the names of staff and donors in the listing include prefixes, suffixes, and other modifications?
+use-displaynames: true
+#Should ops automatically show up as staff? As donors?
+ops:
+    show-as-staff: true
+    show-as-donors: false

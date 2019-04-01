@@ -1,0 +1,24 @@
+name: cStaff
+main: com.veltro.linearlogic.cstaff.CStaff
+author: [LinearLogic, Developher]
+version: 2.4.1
+permissions:
+    cstaff.*:
+        default: false
+        description: Gives access to all cstaff commands and groups
+        children:
+            cstaff.staff: true
+            cstaff.donor: true
+            cstaff.reload: true
+    cstaff.staff:
+        description: Players with this node show up as staff in the cStaff playerlist
+        default: false
+    cstaff.donor:
+        description: Players with this node show up as donors in the cStaff playerlist
+        default: false
+    cstaff.reload:
+        description: Allows player to reload the cStaff config
+        default: op
+commands:
+    cstaff:
+        aliases: [staff]
